@@ -13,7 +13,7 @@
     <div id="fb-root"></div>
     <script type="text/javascript">
         var appId = 182086779253313;
-        var roleArn = 'arn:aws:iam::137170503761:role/test';
+        var roleArn = 'arn:aws:iam::137170503761:role/awsobjett';
         var bucketName = 'awsobjet';
         AWS.config.region = 'eu-west-3';
 
@@ -22,7 +22,8 @@
             params: {
                 Bucket: bucketName
             }
-        });
+        }); 
+        
 
         var fileChooser = document.getElementById('file-chooser');
         var button = document.getElementById('upload-button');
